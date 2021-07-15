@@ -5549,6 +5549,18 @@ api:
         - GetUsageCloudSecurityPostureManagement
       unstable: []
       order: 30
+  - name: Get cost by sub-org
+    url: '#get-cost-by-sub-org'
+    identifier: get-cost-by-sub-org
+    parent: usage-metering
+    generated: true
+    params:
+      versions:
+        - v1
+      operationids:
+        - GetChargebackSummary
+      unstable: []
+      order: 32
   - name: Get billable usage across your account
     url: '#get-billable-usage-across-your-account'
     identifier: get-billable-usage-across-your-account

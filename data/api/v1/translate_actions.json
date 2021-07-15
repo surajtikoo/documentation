@@ -934,6 +934,10 @@
     "description": "Get billable usage across your account.",
     "summary": "Get billable usage across your account"
   },
+  "GetChargebackSummary": {
+    "description": "Get usage cost per product for each sub-org across your multi-org account.",
+    "summary": "Get cost by sub-org"
+  },
   "GetUsageCloudSecurityPostureManagement": {
     "description": "Get hourly usage for Cloud Security Posture Management (CSPM).",
     "summary": "Get hourly usage for CSPM"
