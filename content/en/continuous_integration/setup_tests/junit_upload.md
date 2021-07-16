@@ -40,7 +40,7 @@ DD_ENV=ci DATADOG_API_KEY=<api_key> datadog-ci junit upload \
   unit-tests/junit-reports e2e-tests/single-report.xml
 {{< /code-block >}}
 
-You may also specify a [Datadog API key][3] through the `--apiKey` option.
+You may also specify a [Datadog API key][3] through the `--api-key` option.
 
 ## Additional configuration settings
 
@@ -51,7 +51,7 @@ This is the full list of options available when using the `datadog-ci junit uplo
 **Environment variable**: `DD_SERVICE`<br/>
 **Example**: `my-api-service`
 
-`--apiKey` (Required)
+`--api-key` (Required)
 : [Datadog API Key][3].<br/>
 **Environment variable**: `DATADOG_API_KEY`
 **Example**: `GRKLCYRKYS7MOD4PKSA4T8BNVYH8ROC4`
