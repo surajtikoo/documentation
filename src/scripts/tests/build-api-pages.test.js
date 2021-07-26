@@ -1,5 +1,15 @@
 import * as bp from '../build-api-pages';
 
+describe('formatContentLinks', () => {
+
+  it('should replace relative links with ones to the docs api page', () => {
+    const expected = `you can get the id from <a href="https://docs.datadoghq.com/api/latest/usage-metering/#get-the-list-of-available-monthly-custom-reports">this endpoint that lists id</a>`;
+    const actual = bp.formatContentLinks(`you can get the id from [this endpoint that lists id](#/Usage-Metering/get-the-list-of-available-monthly-custom-reports)`);
+    expect(actual).toEqual(expected);
+  });
+
+});
+
 describe(`updateMenu`, () => {
 
 
